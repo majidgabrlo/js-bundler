@@ -42,7 +42,6 @@ const Preview: React.FC<PreviewProps> = ({ code }) => {
       <iframe
         title="preview"
         ref={iframe}
-        srcDoc={html}
       />
     </div>
   );

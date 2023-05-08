@@ -3,7 +3,7 @@ import CodeCell from './components/code-cell';
 
 const App = () => {
   return (
-    <div>
+    <div style={{ height: "100vh", overflow: "hidden" }}>
       <CodeCell />
     </div>
   );
